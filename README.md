@@ -11,7 +11,6 @@
    purposes.
 
 
-Setup:
 
 # Frontend Setup 
 

@@ -1,0 +1,42 @@
+*{
+    margin-bottom: 0px!important;
+}
+
+.welcome-box{
+    margin-top: 60px;
+    width: 100%;
+    height: auto;
+    background-color: #A9B388;
+    text-align: center;
+}
+
+.welcome-title{
+    font-size: 45px;
+    font-weight: 900;
+    padding: 20px;
+    color: white;
+}
+
+.welcome-message{
+    font-size: 25px;
+    font-weight: 800;
+    padding-bottom: 15px;
+}
+
+.welcome-submessage{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+img{
+    width: auto;
+    height: 500px;
+}
+
+/* Mobile View */
+@media screen and (max-width:768px){
+    img{
+        height: 250px;
+    }
+}

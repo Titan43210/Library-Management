@@ -21,7 +21,7 @@
 
 3. Create a `.env` file and create variables as mentioned in the `.env.example` with the values
 
-4. Run 'nodemon server.js' or 'node server.js' to start the server.
+4. Run `nodemon server.js` or `node server.js` to start the server.
 
 
 
@@ -57,9 +57,9 @@
 
 2. To generate a hashed password, make a new .js file not necessarily in the project directory and run the following code:
 
-import bcrypt from "bcrypt";
+`import bcrypt from "bcrypt";
 const salt = await bcrypt.genSalt(10);
-console.log(await bcrypt.hash("enter_your_password_here", salt));
+console.log(await bcrypt.hash("enter_your_password_here", salt));`
 
 3. Copy the hashed password and paste it in the password field in the document created in step 1
 

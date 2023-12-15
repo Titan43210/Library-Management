@@ -54,6 +54,10 @@
     9. employeeId: String
    10. gender: String
    11. mobileNumber: String
+   12. activeTransactions: []
+   13. prevTransactions: []
+
+      An easier way to generate these fields would be to first register a new user, then cloning that document in mongodb and then filling the relevant details for admin.
 
 2. To generate a hashed password, make a new .js file not necessarily in the project directory and run the following code:
 
